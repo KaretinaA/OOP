@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 //Имплементируем интерфейс
 public abstract class Operation implements Calc {
-    double a;
-    double b;
+    double a=10;
+    double b=5;
 
     Scanner scanner = new Scanner(System.in);
 
